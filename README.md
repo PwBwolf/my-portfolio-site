@@ -1,5 +1,5 @@
 # my-portfolio-site
-My updated personal site
+My updated personal  portfolio site.
 
 ***
 
@@ -10,8 +10,11 @@ My updated personal site
 
 ## Tech being used on this site
 
-    Amazon web services Ec2
-    NGINX for a reverse proxy and caching
-    Angular 2 for client side code
-    Node.js for Server
-    Express
+Amazon web services Ec2
+NGINX for a reverse proxy and caching
+Angular 2 for client side code
+Node.js for Server
+Express
+
+
+Email: pwborodich@gmail.com for questions
