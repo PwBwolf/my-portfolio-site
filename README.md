@@ -10,11 +10,10 @@ My updated personal  portfolio site.
 
 ## Tech being used on this site
 
-Amazon web services Ec2
-NGINX for a reverse proxy and caching
-Angular 2 for client side code
-Node.js for Server
-Express
+1. Amazon web services Ec2
+2. NGINX for a reverse proxy and caching
+3. Angular 2 for client side code
+4. Node.js with Express for Server
 
 
 Email: pwborodich@gmail.com for questions
