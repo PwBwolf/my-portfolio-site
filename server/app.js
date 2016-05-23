@@ -1,16 +1,15 @@
 var express = require('express'),
-    morgan = require('morgan');
+    morgan = require('morgan'),
+    settings = require('./config/settings');
 
-
-var port = number = process.env.PORT || 3000;
+var port = settings.port;
 var app = express();
 
-var renderIndex = function(req, res) {
-    res.sendFile(path.resolve(__dirname, 'index.html'));
-};
-
-app.get('/*', renderIndex);
+app.all('/*', function(req, res) {
+    res.sendFile(settings.root + settings.webAppClientPath + '/index.html');
+});
 
 app.listen(port, function () {
     console.log('app listening for request on port ', port)
 });
+
